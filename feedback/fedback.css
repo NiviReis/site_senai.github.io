@@ -1,0 +1,118 @@
+/* Estilos gerais */
+body{
+	/*font-family: Arial, sans-serif;*/
+	margin: 0;
+	padding: 0;
+	background-color:  #F7F7F7 ;
+}
+
+/* Estilos de cabeçalho */
+header{
+	background-color: #EDEDED;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+header a{
+	color: #black;
+	text-decoration: none;
+	margin-left: 20px;
+	
+}
+
+header a:visited {
+	color: black;
+	
+}
+
+header li{
+	list-style: none;
+}
+
+/* logo */
+.logo{
+	height: 0px;
+	width: 0px;
+}
+
+/* Estilos do conteudo principal */
+main { 
+	background-color:   #F0F0F0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0px;	
+}
+
+section {
+	background-color: #FCFCFC;
+	border: 0px solid #ddd;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	margin: 50px;
+	padding: 10px;
+	width: 240px;
+	height: 395px;
+	border-radius:20px;
+	align-items: center;
+	text-align: center;
+
+
+	
+}
+
+section h2{
+	margin-top: 0px;
+	
+}
+
+/* configuração de imagens*/
+.estrelas {
+		height:20px; width:20px
+}	
+
+/* configuração de fotos de perfil */
+.perfil{
+	
+	height: 200px; 
+	width: 200px;
+	border-radius:20px;
+	justify-content: center;
+    align-items: center;
+	
+}
+
+p {
+	size: 3px;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	text-align: center;
+	
+	
+}
+
+.comentarios {
+	text-align: left;
+	margin-left: 20px;
+	padding-left: 5px;
+	padding-right: 5px ;
+	padding-bottom: 5px ;
+}
+
+font {
+	font-size: 13px;
+	font-family: Luminari, fantasy
+}
+
+table {
+	background-color: #EDEDED; 
+}
+
+/* Estilos de rodapé */
+footer {
+	background-color: #ddd;
+	padding: 10px;
+	text-align: center;
+}
